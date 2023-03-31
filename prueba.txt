@@ -43,3 +43,20 @@ git checkout nombre_rama /*para cambiar de rama*/
 git checkout -b nombre_nueva_rama /*crear y cambiarse automaticamente de rama*/
 
 git branch -D nombre_rama /*comando para eliminar rama(branch)*/
+
+/*
+rebase
+
+    desde la rama main,
+1.- me cambio a la otra nombre_rama 
+    git checkout nombre_otra_rama
+2.- despues de realizados los cambios
+    git add .
+    git commit -m "mensaje"
+
+3.- regresamos a la rama main
+    git checkout main
+4.- traemos los cambios con rebase
+    git rebase nombre_otra_rama
+*/
+
