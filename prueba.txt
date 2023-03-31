@@ -3,7 +3,7 @@ esto es una prueba
 esta es otra modificacion
 
 /*** Comando basicos ***/
-git init ->
+git init -> solo la primera vez, se crea una carpeta oculta llamada .git
 
 git add .   ->
 git commit -m “mensaje representativo”
@@ -17,4 +17,6 @@ git log     -> revisar commit anteriores
 git diff    -> diferencia del último commit
 git status  -> ver archivos modificados
 
-/*confictos e versionamiento, (merge)*/
+/*conflictos de versionamiento, (merge)*/
+
+otro cambios
