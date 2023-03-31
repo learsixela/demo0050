@@ -20,3 +20,26 @@ git status  -> ver archivos modificados
 /*conflictos de versionamiento, (merge)*/
 
 otro cambios
+
+git remote add origin https://github.com/learsixela/demo0050.git
+git remote add francisco https://github.com/FranAguirreC/demo0050.git
+git remote add meetcoffee https://github.com/learsixela/MeetAndCoffee.git
+
+
+/*Solo la 1ra vez que se crea un nuevo repositorio*/
+echo "# demo0050" >> README.md /*esta línea crea en nuestro pc un archivo llamado redme, con texto adentro*/
+git init
+git add README.md /*Esta acción empaqueta el archivo Redme*/
+git add . o git add --all /*esta acción empaqueta todos los archivos*/
+git commit -m "first commit" /*captura una instantanea de los cambios realizados en un instante en el tiempo*/
+git branch -M main /*con esta acción creamos una rama, a partir de la rama principal*/
+git remote add origin https://github.com/FranAguirreC/demo0050.git /*con esta acción vinculamos nuestro PC con el repositorio de Github*/
+git push -u origin main 
+
+
+git branch nombre_nueva_rama  /*para crear una rama*/
+git checkout nombre_rama /*para cambiar de rama*/
+
+git checkout -b nombre_nueva_rama /*crear y cambiarse automaticamente de rama*/
+
+git branch -D nombre_rama /*comando para eliminar rama(branch)*/
