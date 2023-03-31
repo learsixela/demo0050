@@ -1,3 +1,20 @@
 esto es una prueba
 
 esta es otra modificacion
+
+/*** Comando basicos ***/
+git init ->
+
+git add .   ->
+git commit -m “mensaje representativo”
+git push -u origin main
+
+git pull    -> permite bajar del repositorio los cambios 
+git pull origen main
+
+git log     -> revisar commit anteriores
+
+git diff    -> diferencia del último commit
+git status  -> ver archivos modificados
+
+/*confictos e versionamiento, (merge)*/
